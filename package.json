@@ -1,0 +1,17 @@
+{
+  "name": "bootube",
+  "version": "1.0.0",
+  "description": "BooTube is a video streaming API like YouTube, inspired by Dan Da Dan anime.",
+  "license": "ISC",
+  "author": "John Carlo Pinlac",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5"
+  }
+}
