@@ -25,10 +25,12 @@ const userSchema = new mongoose.Schema(
       index: true,
     },
     avatar: {
+      type: String,
       public_id: String,
       url: String,
     },
     coverImage: {
+      type: String,
       public_id: String,
       url: String,
     },
