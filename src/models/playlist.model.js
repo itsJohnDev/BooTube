@@ -5,7 +5,7 @@ const playlistSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      required: [true, "Username is required"],
+      required: [true, "Playlist name is required"],
       trim: true,
     },
     description: {

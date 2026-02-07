@@ -20,7 +20,7 @@ const subscriptionSchema = new mongoose.Schema(
 );
 
 // Compound index to ensure a user can only subscribe to a channel once
-videoSchema.index(
+subscriptionSchema.index(
   { subscriber: 1, channel: 1 },
   {
     unique: true,

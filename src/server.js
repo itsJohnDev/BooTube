@@ -1,7 +1,7 @@
 require("dotenv").config(); // Load env
 
 const express = require("express");
-const connectDB = require("./src/config/db");
+const connectDB = require("./config/db");
 
 // Express Init
 const app = express();
